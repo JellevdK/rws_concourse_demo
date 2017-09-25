@@ -1,0 +1,5 @@
+cf-api: <uri>
+cf-username: <username>
+cf-password: <password>
+cf-organization: <organization>
+cf-space: <space>
