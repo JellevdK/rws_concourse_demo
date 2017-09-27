@@ -1,0 +1,19 @@
+# Ansible ignores
+# ######################
+*.retry
+Ansible/playbooks/roles/common/vars/passwords.yml
+!Ansible/playbooks/roles/common/vars/passwords.yml.example
+
+# Logs and databases #
+# ######################
+*.log
+*.sql
+*.sqlite
+
+# Python compiled #
+# ######################
+*.pyc
+
+# Concourse ignores
+# ######################
+credentials.yml
