@@ -3,7 +3,7 @@ resources:
 - name: resource-web-app
   type: git
   source:
-    uri: https://github.com/martyca/rws_concourse_demo.git
+    uri: https://github.com/JellevdK/rws_concourse_demo.git
 
 - name: resource-deploy-web-app
   type: cf
